@@ -148,6 +148,8 @@ Markers has the following text tags:
 <br>
 <code>(k) and </code>(/k) -> Inline Code. For example, <code>This is an inline code</code>
 <br>
+<code>(n) and (/n)</code> -> Bold and Italic. For example, <b><i>This is a bold and italic text</i></b>
+<br>
 
 <br>
 All these tags can be <strong>used in</strong> <em>sequence</em>. <code>however, they (b)cannot be nested(/b)</code>.
@@ -274,6 +276,21 @@ Some of these tags are inspired by the ABNT standard, while others were created 
 </tbody>
 </table>
 
+<br>
+    </div></details>
+
+<br>
+    
+<details><summary>
+ Comments
+</summary>
+<div>
+<br>
+        A user can add comments to the document using the <code>(-- --)</code> tag. The comment is not rendered in the final document, but it is useful for the writer to add notes and reminders.
+<br>
+
+<br>
+        <code>(-- This is a comment --)</code>
 <br>
     </div></details>
 
@@ -523,6 +540,17 @@ Markers also has support for a series of special tags. Most of these tags are ei
         </div>
 
 <br>
+
+<br>
+        
+<div class="chapter"><h2> IV.I.III. ABNT Exclusive Tags</h2>
+
+<br>
+        While writing an ABNT document, the user must use the tag <code>(abntchap)</code> as opposed to the <code>(chap)</code> tag. This should be used in conjuction with the <code>(page)</code> tag, that keeps track of the page number on the top of the document.
+<br>
+        </div>
+
+<br>
     </div>
 
 <br>
@@ -578,29 +606,6 @@ Markers also has support for a series of special tags. Most of these tags are ei
         <center><video src="https://edisciplinas.usp.br/pluginfile.php/5196097/mod_resource/content/1/Teste.mp4" style="width: 60%" controls>
  Video of a Planet. </video></center>
 
-<br>
-    </div></details>
-
-<br>
-    
-<details><summary>
- Adding an iframe.
-</summary>
-<div>
-<br>
-
-<br>
-        The <code>(iframe)</code> tag is used to add an iframe to the document. Its usage is as follows:
-<br>
-
-<br>
-        <code>(iframe | planet.mp4) Video of a Planet. (/video)</code>
-<br>
-
-<br>
-
-<br>
-        (iframe | https://edisciplinas.usp.br/pluginfile.php/5196097/mod_resource/content/1/Teste.mp4) Video of a Planet. (/iframe)
 <br>
     </div></details>
 
